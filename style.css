@@ -9,19 +9,22 @@
     height: 100vh;
     background-color: #42455a;
 }
+
 .menu ul {
     display: inline-flex;
     list-style: none;
     margin: 50px;
+    
 }
 .menu ul li {
     color: #b2b1b1;
-    margin: 0 20px;
+    margin: 0 25%;
     cursor: pointer;
+    
 }
 .logo img {
     width: 50px;
-    margin: -20px 48px;
+    margin: -20px -40px;
 }
 .active {
     color: #19dafa !important;
@@ -44,24 +47,22 @@
 }
 .banner {
     width: 80%;
-    height: 70%;
-    top: 25%;
-    left: 130px;
-    position: absolute;
+    margin-left: 5%;
+    margin-top: 10%;
     color: #fff;
 }
 .app_text {
-    width: 50%;
+    width: 30%;
     float: left;
 }
 .app_text h1 {
-    font-size: 43px;
+    font-size: calc(1em + 1em + 1vw);
     width: 640px;
     position: relative;
     margin-left: 40px;
 }
 .app_text p {
-    font-size: 15px;
+    font-size: calc(0.3em + 0.3em + 0.5vw);
     width: 650px;
     margin: 30px 0 30px 40px;
     line-height: 25px;
@@ -74,6 +75,7 @@
 }
 .app_picture img {
     width: 100%;
+    min-width: 700px;
     margin-top: -120px;
     padding-left: 50px;
 }
@@ -104,13 +106,15 @@ small {
 .quick_links {
     left: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     background: linear-gradient(to right, #db1bf6, #19d7f8);
+    
 }
 .quick_links ul {
     display: flex;
     margin: 30px auto;
     text-align: center;
+    
 }
 .quick_links ul li {
     list-style: none;
@@ -121,6 +125,7 @@ small {
 .quick_links ul li .material-icons {
     font-size: 25px;
     color: #fff;
+    
 }
 .quick_links ul li p {
     margin-top: 15px;
